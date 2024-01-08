@@ -39,6 +39,7 @@ function AnimeCard({ anime,index }: Prop) {
     >
       <div className="relative w-full h-[37vh]">
         <Image
+          unoptimized
           src={`https://shikimori.one${anime.image.original}`}
           alt={anime.name}
           fill
